@@ -8,5 +8,17 @@
 
 - 扫描Typora文件
 - 上传本地图片
-- ~~下载图床图片（待开发）~~
+- 下载图床图片
 - ~~集成到Typora里（待开发）~~
+
+# 使用方法
+
+```shell
+main.exe <image-path> <upload|download>
+
+#上传图片
+main.exe /path/test.md upload
+#下载图片
+main.exe /path/test.md download
+```
+
